@@ -1,0 +1,3 @@
+[submodule "client"]
+	path = client
+	url = git://github.com/korin/open_flash_chart_2_plugin.git
