@@ -26,7 +26,7 @@ router.delete('/:id', async (req,res) => {
 })
 async function loadPostsCollection() {
   const client = await mongodb.MongoClient.connect(
-    "mongodb+srv://mongovue:Mami2046@mongovue.ufj7z.mongodb.net/mongovue?retryWrites=true&w=majority",
+    "yourconnectionstring",
     { useNewUrlParser: true,  useUnifiedTopology: true }
     
   );
